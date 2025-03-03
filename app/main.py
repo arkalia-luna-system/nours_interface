@@ -14,3 +14,5 @@ app.mount("/static", StaticFiles(directory="app/static"), name="static")
 if __name__ == "__main__":
     import uvicorn
     uvicorn.run("app.main:app", host="127.0.0.1", port=3502, reload=True)
+
+from fastapi.staticfiles import StaticFiles

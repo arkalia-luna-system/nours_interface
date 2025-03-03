@@ -1,10 +1,11 @@
-from fastapi import APIRouter
-from fastapi.responses import FileResponse
-import os
+from fastapi import FastAPI
+from fastapi.staticfiles import StaticFiles
+from app.api.routes import api_router
 
-router = APIRouter()
+app = FastAPI()
 
-@router.get("/nours-image")
-async def get_nours_image():
-    image_path = os.path.join("static", "images", "nours.png")
-    return FileResponse(image_path)
+# 📌 Montage du dossier 'static' pour servir les images
+app.mount("/static", StaticFiles(directory="app/static"), name="static")
+
+# 📌 Inclusion des routes de l'API
+app.include_router(api_router)
