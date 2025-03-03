@@ -1,4 +1,4 @@
-# app/models/requestmodel.py
+
 from pydantic import BaseModel
 
 class RequestModel(BaseModel):

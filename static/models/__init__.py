@@ -1,1 +1,0 @@
-from .requestmodel import RequestModel  # Cette ligne doit être là si tu veux exposer le modèle

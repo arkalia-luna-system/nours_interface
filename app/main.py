@@ -1,11 +1,16 @@
 from fastapi import FastAPI
+from app.api.routes import api_router
+from fastapi.staticfiles import StaticFiles
 
+# Création de l'application FastAPI
 app = FastAPI()
 
-@app.get("/")
-def read_root():
-    return {"message": "Bienvenue sur mon API FastAPI ! 🎉"}
+# Montage des routes
+app.include_router(api_router)
 
-@app.get("/items/{item_id}")
-def read_item(item_id: int, q: str = None):
-    return {"item_id": item_id, "q": q}
+# Montage des fichiers statiques (CSS, images, JS...)
+app.mount("/static", StaticFiles(directory="app/static"), name="static")
+
+if __name__ == "__main__":
+    import uvicorn
+    uvicorn.run("app.main:app", host="127.0.0.1", port=3502, reload=True)
