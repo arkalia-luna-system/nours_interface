@@ -7,6 +7,8 @@
 
 **Prototype d'interface Flask+HTML/CSS/JS démonstrative - Projet archivé à des fins pédagogiques**
 
+> **🌍 English**: Educational Flask prototype - Clean architecture example for beginners learning web development with Python. Perfect starting point for Flask/FastAPI studies.
+
 > Ce dépôt est archivé — prototype/expérimentation Flask+Web de mars 2025. Peut servir de base simplifiée ou d'étude technique pour (re)débuter sous Python/Flask et webapp.
 
 ## ⚠️ Statut d'Archive
@@ -18,10 +20,26 @@
 - 🕒 **Dernière activité** : Mars 2025
 
 **Pour qui est utile ce code ?**
-- ✅ Développeurs débutants en Flask/FastAPI
-- ✅ Étude d'architecture web simple
-- ✅ Base pour prototypage rapide
-- ✅ Référence structure projet Python web
+- ✅ **Développeurs débutants** en Flask/FastAPI
+- ✅ **Étudiants** en informatique étudiant les webapps Python
+- ✅ **Prototypage rapide** : Base simple et propre
+- ✅ **Référence architecture** : Structure projet Python web
+- ✅ **Portfolio didactique** : Exemple de code bien organisé
+
+## 🎓 **Valeur Pédagogique**
+
+### **Ce que vous apprendrez :**
+- 🏗️ **Architecture Flask** : Structure modulaire et routes
+- 🎨 **Frontend/Backend** : Séparation propre HTML/CSS/JS + Python  
+- 📁 **Organisation code** : Bonnes pratiques de structure projet
+- 🔧 **Configuration** : Variables d'environnement et configuration
+- 📋 **Documentation** : Comment documenter un projet web
+
+### **Points forts éducatifs :**
+- ✨ Code **simple mais professionnel** 
+- 📖 Commentaires **explicatifs** dans le code
+- 🎯 **Exemple concret** d'interface utilisateur
+- 🔨 Prêt à **modifier et étendre**
 
 ## 🚀 Démarrage Rapide (Archive)
 
