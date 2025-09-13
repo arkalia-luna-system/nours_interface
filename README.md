@@ -1,11 +1,13 @@
-# 📦 Nours Interface - Prototype Flask [ARCHIVED]
+# 🧸🌐 **Nours Interface** - POC Flask [ARCHIVED]
+
+> **🌍 English**: Educational Flask prototype - Clean architecture example for beginners learning web development with Python. Perfect legacy study for Flask/FastAPI beginnings.
+
+> **🇫🇷 Français**: Prototype Flask+HTML/CSS/JS démonstratif - Exemple d'architecture propre pour débutants en développement web Python. Parfait legacy study pour débuter Flask/FastAPI.
 
 [![Status](https://img.shields.io/badge/status-ARCHIVED-red.svg)](https://github.com/arkalia-luna-system/nours_interface)
 [![Flask](https://img.shields.io/badge/Flask-prototype-orange.svg)](https://flask.palletsprojects.com)
 [![Legacy](https://img.shields.io/badge/legacy-2025-yellow.svg)](https://github.com/arkalia-luna-system/nours_interface)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](LICENSE)
-
-**Prototype d'interface Flask+HTML/CSS/JS démonstrative - Projet archivé à des fins pédagogiques**
 
 > **🌍 English**: Educational Flask prototype - Clean architecture example for beginners learning web development with Python. Perfect starting point for Flask/FastAPI studies.
 
